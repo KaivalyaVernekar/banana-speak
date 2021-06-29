@@ -15,7 +15,15 @@ footer {
   background-color: #f5e050;
 }
 
-#input-area {
+#input-output-container {
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#input-area,
+#output-area {
   height: 20vh;
   width: 60vh;
   display: block;
@@ -23,6 +31,7 @@ footer {
   border-radius: 5px;
   resize: none;
   font-weight: 700;
+  font-size: 18px;
   padding: 1rem;
 }
 
@@ -42,29 +51,7 @@ footer {
 #btn-translate h4 {
   padding: 0.5rem;
   font-weight: 400;
-}
-
-#output-area {
-  height: 20vh;
-  width: 60vh;
-  display: block;
-  border: 1px solid #000;
-  border-radius: 5px;
-  padding: 1rem;
-  font-weight: 700;
-}
-
-.translate-para {
-  margin-bottom: 0.5rem;
-  font-size: 14px;
-  margin-right: 33%;
-}
-
-.input-output-container {
-  height: 65vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  font-size: 16px;
 }
 
 .heading {
@@ -73,20 +60,6 @@ footer {
   font-style: italic;
   text-align: center;
   padding-top: 1.8rem;
-}
-
-.about {
-  font-weight: 700;
-  font-size: 26px;
-  text-align: center;
-  padding-top: 1.5rem;
-}
-
-.about-details {
-  font-weight: 300;
-  font-size: 18px;
-  text-align: center;
-  margin: 1rem auto;
 }
 
 .left {
@@ -106,4 +79,25 @@ footer {
 .right img {
   object-fit: cover;
   padding-top: 1.5rem;
+}
+
+.translate-para {
+  margin-bottom: 0.5rem;
+  margin-right: 33%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about {
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.about-details {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  margin: 1rem auto;
 }
